@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+.logo{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    margin:0px;
+    margin-top: 28px;
+    padding: none;
+    position:right;
+    margin-right: 5px;
+    
+}
+.img_perf{
+    border-radius: 100px;
+}
+.cont_cab{
+   width: 100%;
+
+}
+
+.saldo{
+    position: right;
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none ;
+    cursor: pointer;
+    padding-left: 2rem ;
+    margin-top: 43px; 
+    margin-right: 90px;
+}    
+header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15,15,15);
+    box-shadow: 0 0 1rem black;
+}
+ul{
+    display: flex;
+    margin: 23px;
+
+}
+.cabecalho{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none ;
+    cursor: pointer;
+    padding-left: 2rem ;
+    margin-top: 20px;   
+}
+
+.login{
+    position: right;
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none ;
+    cursor: pointer;
+    padding-left: 2rem ;
+    margin-top: 43px; 
+    margin-right:none;
+}
+
+
+a{
+    text-decoration: none;
+    color:blueviolet
+}
+
+.img_destaque{
+    border-radius: 15px;
+}
+
+.destaque{
+    background-color: rgb(122, 122, 122);
+    width: 100%;
+    height: 80%;
+    margin-top: 30px  ;
+    background: linear-gradient(45deg, rgb(51, 51, 252), rgb(50, 3, 94));
+    font-size: large;
+}
+
+.jogo{
+    list-style-type: none;
+}
+
+.texto_jogo{
+   color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+
+}
+
+.imagem_jogo{
+    margin: 10px;
+    margin-top: 50px;
+    padding: none;
+
+    border: 30px;
+    border-color: brown;
+}
+
+
+/* Botão Importado */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: blueviolet;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 30px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position:left;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
